@@ -1,0 +1,79 @@
+html{
+
+}
+
+
+
+body {
+	color: #555;
+}
+
+h1{font-size: 36px;}
+h2{font-size: 24px;}
+
+h1 {
+	color: #fff;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+h2 {
+	border-bottom: 4px solid #FD9827;
+}
+
+i {
+	color: #FD9827;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+}
+
+li:before {
+	content: "\f105";
+	font-family: FontAwesome;
+	color: #FD9827;
+	padding-right: 0.5em;
+
+}
+
+
+
+.container {
+
+}
+
+
+.content1 {
+	background-color: #1abc9c;
+	padding-top: 20px;
+}
+
+
+/* SmartPhone,Tablet */
+@media screen and (max-width: 760px) {
+	.content1 {
+		height: 300px;
+	}
+}
+
+/* PC */
+@media screen and (min-width: 759px) {
+	.content1 {
+		height: 100vh;
+	}
+}
+
+
+.content1>p{
+	color: #fff;
+	font-size: 1.5em;
+}
+
+
+.content2 {
+	padding-top: 20px;
+}
