@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="utf-8">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Congratulations!!</title>
+  <title>PHP Default App - Mobingi</title>
 
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,7 +33,7 @@
 
                 <h1>おめでとうございます！</h1>
                 <p>moCloudアプリケーションは現在あなた専用の環境で動作しています。</p>
-                <p>PHP version 5.6.17 で動いています。</p>
+                <p><?php echo ' PHP version: ' . phpversion(); ?> で動いています。</p>
 
               </div>
             </section>
