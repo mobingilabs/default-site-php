@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="utf-8">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,6 +24,13 @@
       <![endif]-->
     </head>
     <body>
+
+    <script type="text/javascript">
+      var userLang = navigator.language || navigator.userLanguage;
+      if(userLang == 'ja'){
+        window.location.href = "index2.php";
+      }
+    </script>
 
       <article>
         <div class="container-fluid">
