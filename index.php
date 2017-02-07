@@ -10,12 +10,12 @@
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-
         <!-- Custom CSS -->
         <link href="css/styles.css" rel="stylesheet">
 
+        <!-- Font Awesome -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -26,6 +26,7 @@
     <body>
         <script type="text/javascript">
             var userLang = navigator.language || navigator.userLanguage;
+            // alert(userLang);
             if(userLang == 'ja'){
                 window.location.href = "index2.php";
             }
@@ -47,25 +48,25 @@
 
                             <h2><i class="fa fa-files-o" aria-hidden="true"></i>What's Next?</h2>
                             <ul>
-                                <li><a href="https://mocloud.io/documentation/overview/features" target="_blank">moCloud Documents</a></li>
-                                <li><a href="http://docs.mobingi.com/en/overview/features" target="_blank">Mobingi For Enterprise Documents</a></li>
+                                <li><a href="https://docs.mobingi.com/official/getting-started" target="_blank">Mobingi Documents</a></li>
                             </ul>
 
                             <h2><i class="fa fa-cogs" aria-hidden="true"></i>Tutorial</h2>
                             <ul>
+                                <li><a href="https://docs.mobingi.com/official/tutorials/ssh_into_your_server" target="_blank">SSH Into Your Server</a></li>
+                                <li><a href="https://docs.mobingi.com/official/tutorials/custom_installation_script" target="_blank">Custom Installation Script<small>(mobingi-install.sh)</small></a></li>
                                 <li><a href="https://medium.com/@waylandzhang/deploy-your-first-php-application-on-mobingi-in-5-minutes-9207ad417b21#.a6jtlo7gh" target="_blank">Deploy your first PHP application on Mobingi Cloud in 5 minutes [English]</a></li>
                                 <li><a href="http://yoshidashingo.hatenablog.com/entry/2016/01/06/200919" target="_blank">moCloudでProcfileを使ってNode.jsアプリを動かす [Japanese]</a></li>
                             </ul>
 
                             <h2><i class="fa fa-life-ring" aria-hidden="true"></i>Customer Service</h2>
                             <ul>
-                                <li><a href="https://mocloud.io/documentation/support/email" target="_blank">Customer Mail</a></li>
+                                <li><a href="https://docs.mobingi.com/official/support" target="_blank">Customer Support</a></li>
                             </ul>
 
                             <h2><i class="fa fa-external-link" aria-hidden="true"></i>Links</h2>
                             <ul>
                                 <li><a href="https://mobingi.com/" target="_blank">mobingi.com</a></li>
-                                <li><a href="https://mobingi.com/paas-mocloud" target="_blank">moCloud.io</a></li>
                             </ul>
 
                         </div>
