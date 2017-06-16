@@ -63,7 +63,6 @@
                         <ul>
                             <li><a href="https://docs.mobingi.com/official/support/jp" target="_blank">サポートページ</a></li>
                         </ul>
-                        <br />
 
                         <h2><i class="fa fa-external-link" aria-hidden="true"></i>リンク</h2>
                         <ul>
